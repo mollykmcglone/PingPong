@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Ping Pong</title>
+  </head>
+  <body>
+
+  <div class="jumbotron">
+      <h1>Ping Pong!</h1>
+  </div>
+
+  <div class = "container">
+  <div class = "Setup">
+  <h2>Let's play a game of ping pong!</h2>
+  <h3>Here are the rules:</h3>
+    <ol>
+      <li>The game counts from 1 to your number</li>
+      <li>Numbers divisible by 3 become "ping!"</li>
+      <li>Numbers divisible by 5 become "pong!"</li>
+      <li>Numbers divisible by 15 become "pingpong!"</li>
+    </ol>
+
+  <div id="game">
+    <form class="form-inline">
+    <div class="form-group">
+      <label for="userEntry">Type a number greater than zero:</label>
+      <input type="text" class="form-control" id="input" placeholder="Your Number Here">
+    </div>
+    <button type="submit" class="btn btn-default">Play!</button>
+  </form>
+  </div>
+
+  <div>
+    <ul id="result">
+    </ul>
+  </div>
+</div>
+
+<footer class="navbar-default navbar-fixed-bottom">
+  <div class="container-fluid">
+    <p>&copy; 2016 Molly McGlone</p>
+  </div>
+</footer>
+
+  </body>
+</html>
