@@ -1,12 +1,13 @@
 .jumbotron {
   background-size: cover;
-  background-color: #f5f5f5;
+  background-color: #008080;
   text-align: center;
+  color: #ffffff;
 }
 
 .Setup {
   margin-left: 25%;
-  margin-right: 25%;
+  float: left;
 }
 
 .Setup ol {
@@ -36,11 +37,12 @@ body {
 }
 
 footer.navbar-default.navbar-fixed-bottom {
-  background-color: #f5f5f5;
+  background-color: #008080;
   padding:1em 0;
  }
 
  footer.navbar-default.navbar-fixed-bottom p {
   margin:0;
   text-align: center;
+  color: #ffffff;
  }
