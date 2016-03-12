@@ -5,6 +5,10 @@ var print = function(whatPrint) {
 
 var pingPong = function(userEntry) {
   var result = "";
+  if (userEntry <= 0) {
+    result += "<li> Whoops- enter a number greater than zero. </li>";
+    print(result);
+  } else {
     for (i = 1; i <= userEntry; i ++) {
       if (i % 3 === 0 && i % 5 === 0) {
         result += "<li> <strong>pingpong!</strong> </li>";
@@ -15,8 +19,9 @@ var pingPong = function(userEntry) {
       } else {
         result += "<li>" + i + "</li>";
       }
-      print(result);
-    }
+    print(result);
+    }  
+  }
 }
 
 $(document).ready(function() {
